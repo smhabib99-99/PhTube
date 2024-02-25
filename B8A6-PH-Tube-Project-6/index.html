@@ -1,0 +1,108 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<!-- Head part of html -->
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>PH Tube</title>
+
+
+    <link href="https://cdn.jsdelivr.net/npm/daisyui@3.6.4/dist/full.css" rel="stylesheet" type="text/css" />
+    <script src="https://cdn.tailwindcss.com"></script>
+
+</head>
+
+<!-- body part of html -->
+
+<body>
+
+    <header class="container mx-auto">
+        <section class="flex justify-between items-center container mx-auto m-6">
+            <div class="lg:w-auto w-24">
+                <img src="./Logo.png" alt="">
+            </div>
+            <div class="">
+                <button>
+                    <h2 class="text-xl font-medium p-2 lg:pl-5 lg:pr-5 lg:mr-20 bg-[#25252533] rounded-md">Sort by view</h2>
+                </button>
+            </div>
+            <div class="bg-[#FF1F3D] text-white lg:pr-5 lg:pl-5 p-2 rounded-md">
+                <button onclick="blog()">
+                    <p class="text-xl font-medium">Blog</p>
+                </button>
+            </div>
+        </section>
+
+        <hr class="border-2">
+
+    </header>
+
+    <main class="container mx-auto">
+        <div class="tab-container w-full">
+            <div id="tab-container" class="tabs flex gap-4 p-4 justify-center m-auto">
+                <!-- <a class="tab bg-gray-200 rounded-md m-4">Tab 1</a> 
+                <a class="tab tab-active bg-gray-200 rounded-md m-4">Tab 2</a> 
+                <a class="tab bg-gray-200 rounded-md m-4">Tab 3</a>
+                <a class="tab bg-gray-200 rounded-md m-4">Tab 4</a> -->
+            </div>
+        </div>
+
+        <!-- <hr class="border-2"> -->
+
+        <!-- showing card for all card. html code is here -->
+
+        <section>
+            <div id="dynamic-card-append-container" class="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-4">
+         
+            </div>
+        </section>
+
+        <!-- daisy ui card comment -->
+        <!-- <div class="card w-96 bg-base-100 shadow-xl">
+            <figure><img src="/images/stock/photo-1606107557195-0e29a4b5b4aa.jpg" alt="Shoes" /></figure>
+
+            <div class="card-body">
+
+                <div>
+                    <img src="./Logo.png" alt="">
+                    <p>a</p>
+                    <p class="card-title">
+                        <img src="./Icon.png" alt=""> building a winning UX Strategy
+                    </p>
+                </div>
+
+                <h2 class="">
+                    Awlad hossain
+                    <div class="badge badge-xs rounded-full badge-primary">a</div>
+                </h2>
+                <p>If a dog chews shoes whose shoes does he choose?</p>
+                <div class="card-actions justify-end">
+                    <div class="badge badge-outline">Fashion</div>
+                    <div class="badge badge-outline">Products</div>
+                </div>
+                show views
+                <p>91k views</p>
+            </div>
+
+        </div> -->
+
+        <!-- Showing Data for Drawing tab/button -->
+        <section>
+            <div id="drawing-tab-showing">
+
+            </div>
+        </section>
+
+    </main>
+
+    <footer>
+
+    </footer>
+
+
+    <script src="./js/tube.js"></script>
+</body>
+
+</html>
